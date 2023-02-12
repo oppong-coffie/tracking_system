@@ -31,7 +31,7 @@ html{
 
 .sixth-section{
     padding-top: 22px;
-    background-size:100% 100% ;
+    background-size:100% 100% !important;
     height: 300px;
     background: linear-gradient(to bottom,rgba(40,60,255,0.4),rgba(40,60,255,0.4)), url(../images/200409154616-underscored-food-delivery-service.jpg) !important;
 }
@@ -115,3 +115,31 @@ html{
     border-radius: 100%;
 }
 
+.input{
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: #0095FF 1px solid;
+    background-color: #d8ebf8;
+}
+
+/* css style for info */
+.info{
+    height: 400px;
+    border: #0095FF 1px solid;
+    border-radius: 10px;
+}
+
+.info_text{
+    height: 50px;
+    background-color: #0095FF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icons{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: #0095FF 7px solid;
+}
